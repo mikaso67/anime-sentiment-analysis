@@ -219,3 +219,9 @@ __marimo__/
 
 data/
 *.csv
+
+models/roberta/
+*.safetensors
+*.bin
+
+models/roberta/
