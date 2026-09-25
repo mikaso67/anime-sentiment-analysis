@@ -2,7 +2,7 @@
 
 Binary sentiment classification on MyAnimeList reviews. I compare a classic TF-IDF + logistic regression baseline with a fine-tuned RoBERTa, and wrap both in a small Streamlit app to see where they disagree.
 
-**Live demo:** https://anime-sentiment-analysis-82bb4vyehlpcla9ntutpc2.streamlit.app/  
+**Live demo:** https://tfidf-vs-roberta.streamlit.app  
 **Model on Hugging Face:** [mikaso67/anime-sentiment-roberta](https://huggingface.co/mikaso67/anime-sentiment-roberta)
 
 ## Results
