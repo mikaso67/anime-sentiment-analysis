@@ -5,8 +5,8 @@ import streamlit as st
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-# local folder when running on my machine, Hugging Face repo id once deployed
-ROBERTA_SOURCE = os.getenv("ROBERTA_MODEL", "models/roberta")
+# set ROBERTA_MODEL to a local folder to skip the download from the Hub
+ROBERTA_SOURCE = os.getenv("ROBERTA_MODEL", "mikaso67/anime-sentiment-roberta")
 
 EXAMPLES = {
     "Negation": "Not boring at all, actually it was amazing.",

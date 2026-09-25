@@ -64,8 +64,8 @@ To run the app:
 streamlit run app.py
 ```
 
-The app expects the fine-tuned RoBERTa in `models/roberta/`, or a Hugging Face model id in the `ROBERTA_MODEL` environment variable.
+The fine-tuned model is downloaded from the Hugging Face Hub ([mikaso67/anime-sentiment-roberta](https://huggingface.co/mikaso67/anime-sentiment-roberta)) the first time the app runs.
 
 ## Stack
 
-Python, pandas, scikit-learn, PyTorch, Hugging Face Transformers, Streamlit, Google Colab.
+Python, pandas, scikit-learn, PyTorch, Hugging Face Transformers and Hub, Streamlit, Google Colab.
